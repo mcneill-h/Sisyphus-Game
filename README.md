@@ -1,9 +1,13 @@
 # GMTK-Game-Making-competition
 This game was built for the 2025 edition of the GMTK Game Jam, a worldwide game-making competition held every year. Since that year’s theme was “Loop,” I designed a game based on the myth of Sisyphus, in which he repeatedly pushes his boulder uphill. The player must push the boulder through puzzle-like levels, though the end may never be reached ;)
 
-
-
 Commercial assets used in this project (listed font, sprites and SFX) are not included in this repository.
+
+I currently have Godot at version 4.4.1
+
+This github page includes the code of the video game, and it can also be played on the browser through this link: <https://henry-mcneill.itch.io/ascent-from-the-depths> or alternatively, you can research "Ascent from the Depths" on itch.io
+
+Moreover, you can access the comments left by developpers and results of my GMTK game jam participation in the followiung link: https://itch.io/jam/gmtk-2025/rate/3782004
 
 External assets:
 
