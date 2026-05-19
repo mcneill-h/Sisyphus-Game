@@ -1,0 +1,40 @@
+[gd_scene load_steps=5 format=3 uid="uid://0lrwbcutbaxa"]
+
+[ext_resource type="PackedScene" uid="uid://bfi1bbkq77t2p" path="res://scenes/game_all.tscn" id="1_f0ip2"]
+[ext_resource type="PackedScene" uid="uid://cq4suoeq8iviv" path="res://scenes/background.tscn" id="1_qyetb"]
+[ext_resource type="PackedScene" uid="uid://cywxlf2b4gl2i" path="res://scenes/lava.tscn" id="2_jyq2n"]
+[ext_resource type="PackedScene" uid="uid://dlgickvjqghum" path="res://scenes/floor_sprite.tscn" id="4_jyq2n"]
+
+[node name="level3" type="Node2D"]
+
+[node name="background" parent="." instance=ExtResource("1_qyetb")]
+
+[node name="lava" parent="." instance=ExtResource("2_jyq2n")]
+position = Vector2(20, 302)
+
+[node name="lava2" parent="." instance=ExtResource("2_jyq2n")]
+position = Vector2(-343, 283)
+
+[node name="game_all" parent="." instance=ExtResource("1_f0ip2")]
+
+[node name="player" parent="game_all" index="2"]
+position = Vector2(-529, 153)
+
+[node name="win_zone" parent="game_all" index="3"]
+position = Vector2(461, 16)
+
+[node name="platforms_collisions" parent="game_all/StaticBody2D" index="0"]
+position = Vector2(45, 120)
+polygon = PackedVector2Array(-952.424, 106.959, -644.051, 105.115, -615.141, 296.903, -499.5, 387.265, -530.017, 134.621, -114.034, 171.503, 14.455, 320.877, -25.6978, 158.594, 159.005, 182.568, 531.623, -127.244, 803.055, -127.244, 987.758, -267.397, 888.179, 625.157, -1445.5, 617.78)
+
+[node name="platforms_textures" parent="game_all/StaticBody2D" index="1"]
+position = Vector2(45, 120)
+
+[node name="Rock" parent="game_all" index="6"]
+position = Vector2(-445, 125)
+
+[node name="floor_sprite" parent="." instance=ExtResource("4_jyq2n")]
+position = Vector2(-163, 222)
+rotation = 0.0877342
+
+[editable path="game_all"]

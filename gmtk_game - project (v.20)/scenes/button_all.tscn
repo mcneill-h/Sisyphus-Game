@@ -1,0 +1,41 @@
+[gd_scene load_steps=7 format=3 uid="uid://cdx4f5awqvclt"]
+
+[ext_resource type="FontFile" uid="uid://djsr3sqog8gdc" path="res://assets/Cinzel-VariableFont_wght.ttf" id="1_exlrq"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ph471"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_tsqra"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_d3q7r"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_nikib"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_lv4m2"]
+
+[node name="button_all" type="Button"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -105.0
+offset_top = -27.5
+offset_right = 105.0
+offset_bottom = 27.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_hover_color = Color(0.921569, 0.356863, 0, 1)
+theme_override_colors/font_color = Color(0.694118, 0.172549, 0, 1)
+theme_override_colors/font_focus_color = Color(0.694118, 0.172549, 0, 1)
+theme_override_colors/font_pressed_color = Color(0.921569, 0.356863, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("1_exlrq")
+theme_override_font_sizes/font_size = 70
+theme_override_styles/focus = SubResource("StyleBoxEmpty_ph471")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_tsqra")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_d3q7r")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_nikib")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_lv4m2")
+text = "Settings
+"
+alignment = 0

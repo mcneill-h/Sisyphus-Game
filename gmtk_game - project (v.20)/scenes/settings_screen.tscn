@@ -1,0 +1,60 @@
+[gd_scene load_steps=4 format=3 uid="uid://xuq4ags6dg32"]
+
+[ext_resource type="PackedScene" uid="uid://cdx4f5awqvclt" path="res://scenes/button_all.tscn" id="2_assm4"]
+[ext_resource type="PackedScene" uid="uid://j4hhl1qf1wph" path="res://scenes/naming_tag.tscn" id="3_pt01f"]
+[ext_resource type="PackedScene" uid="uid://cxlin86781r1l" path="res://scenes/slider_all.tscn" id="3_qrqa7"]
+
+[node name="Settings_screen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Master_slider" parent="." instance=ExtResource("3_qrqa7")]
+layout_mode = 1
+offset_top = -72.5
+offset_bottom = -11.5
+
+[node name="Music_slider" parent="." instance=ExtResource("3_qrqa7")]
+layout_mode = 1
+offset_top = 18.5
+offset_bottom = 79.5
+audio_bus_name = "Music"
+
+[node name="SFX_slider" parent="." instance=ExtResource("3_qrqa7")]
+layout_mode = 1
+offset_top = 117.5
+offset_bottom = 178.5
+audio_bus_name = "SFX"
+
+[node name="button_all" parent="." instance=ExtResource("2_assm4")]
+layout_mode = 1
+offset_left = -113.0
+offset_top = -263.5
+offset_right = 123.0
+offset_bottom = -168.5
+theme_override_font_sizes/font_size = 60
+text = "Settings"
+
+[node name="Master_tag" parent="." instance=ExtResource("3_pt01f")]
+layout_mode = 1
+offset_top = -107.5
+offset_bottom = -44.5
+
+[node name="Music_tag" parent="." instance=ExtResource("3_pt01f")]
+layout_mode = 1
+offset_left = -51.5
+offset_top = -16.5
+offset_right = 51.5
+offset_bottom = 46.5
+text = "Music"
+
+[node name="SFX_tag" parent="." instance=ExtResource("3_pt01f")]
+layout_mode = 1
+offset_left = -31.5
+offset_top = 84.5
+offset_right = 31.5
+offset_bottom = 147.5
+text = "SFX"

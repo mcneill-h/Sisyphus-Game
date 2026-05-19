@@ -1,0 +1,51 @@
+[gd_scene load_steps=6 format=3 uid="uid://dmxj56g67pe1q"]
+
+[ext_resource type="PackedScene" uid="uid://cq4suoeq8iviv" path="res://scenes/background.tscn" id="1_0xx0x"]
+[ext_resource type="Script" uid="uid://d0qvfjueqql0t" path="res://scenes/level_13.gd" id="1_fvdnh"]
+[ext_resource type="PackedScene" uid="uid://bfi1bbkq77t2p" path="res://scenes/game_all.tscn" id="2_fvdnh"]
+[ext_resource type="PackedScene" uid="uid://dlgickvjqghum" path="res://scenes/floor_sprite.tscn" id="3_ls00y"]
+[ext_resource type="PackedScene" uid="uid://dbb3akkgcta61" path="res://scenes/naming_text.tscn" id="4_xax1f"]
+
+[node name="level13" type="Node2D"]
+script = ExtResource("1_fvdnh")
+
+[node name="background" parent="." instance=ExtResource("1_0xx0x")]
+
+[node name="game_all" parent="." instance=ExtResource("2_fvdnh")]
+
+[node name="player" parent="game_all" index="2"]
+visible = false
+position = Vector2(520, -98)
+
+[node name="Rock" parent="game_all" index="6"]
+position = Vector2(296, -124)
+
+[node name="floor_sprite" parent="." instance=ExtResource("3_ls00y")]
+position = Vector2(-469.18, 317.394)
+scale = Vector2(0.232952, 0.283275)
+region_rect = Rect2(-707.436, 39.0958, 1209.16, 89.5192)
+
+[node name="floor_sprite2" parent="." instance=ExtResource("3_ls00y")]
+position = Vector2(-82, 241.394)
+scale = Vector2(0.231, 0.283275)
+
+[node name="floor_sprite3" parent="." instance=ExtResource("3_ls00y")]
+position = Vector2(405, -18.1058)
+scale = Vector2(0.231, 0.272039)
+
+[node name="naming_text" parent="." instance=ExtResource("4_xax1f")]
+offset_left = -542.0
+offset_top = -74.0
+offset_right = 59.0
+offset_bottom = -11.0
+text = "Thou shalt lend thy strength unto the man, 
+that he may bear the stone unto the mountain's summit"
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 5.0
+one_shot = true
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+
+[editable path="game_all"]

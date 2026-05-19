@@ -1,0 +1,152 @@
+[gd_scene load_steps=11 format=3 uid="uid://cat5r011p67fj"]
+
+[ext_resource type="PackedScene" uid="uid://cq4suoeq8iviv" path="res://scenes/background.tscn" id="1_new0c"]
+[ext_resource type="PackedScene" uid="uid://bfi1bbkq77t2p" path="res://scenes/game_all.tscn" id="1_tihs1"]
+[ext_resource type="PackedScene" uid="uid://dlgickvjqghum" path="res://scenes/floor_sprite.tscn" id="3_l0xmf"]
+[ext_resource type="PackedScene" uid="uid://dbb3akkgcta61" path="res://scenes/naming_text.tscn" id="4_c7v5w"]
+[ext_resource type="Script" uid="uid://clm8118mdio4x" path="res://scenes/finale.gd" id="4_kjktk"]
+[ext_resource type="Texture2D" uid="uid://bi1d0vsqj8wch" path="res://assets/60.png" id="6_kjktk"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_u2xta"]
+size = Vector2(128, 38)
+
+[sub_resource type="Animation" id="Animation_u2xta"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-405, 114)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_kjktk"]
+resource_name = "bouldering"
+length = 5.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(1.9, 3.4, 3.86667, 4.46667),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-347, 100), Vector2(-397, -104), Vector2(-397, -104), Vector2(-813, 12)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(1.9, 3.4, 3.86667, 4.46667),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 6.28319, 6.28319, -6.28319]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(1.9, 3.4, 4.46667),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0.277362, 0.248675, 0.760613, 1), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_pcq77"]
+_data = {
+&"RESET": SubResource("Animation_u2xta"),
+&"bouldering": SubResource("Animation_kjktk")
+}
+
+[node name="level10" type="Node2D"]
+
+[node name="background" parent="." instance=ExtResource("1_new0c")]
+
+[node name="game_all" parent="." instance=ExtResource("1_tihs1")]
+
+[node name="player" parent="game_all" index="2"]
+position = Vector2(-485, 148)
+
+[node name="win_zone" parent="game_all" index="3"]
+position = Vector2(920, -404)
+
+[node name="platforms_collisions" parent="game_all/StaticBody2D" index="0"]
+polygon = PackedVector2Array(-1018.27, 184.412, -602.292, 110.647, -133.307, -376.201, 104.397, -378.045, 583.018, 287.683, 944.393, 403.862, 703.477, 767.154, -1114, 590)
+
+[node name="Rock" parent="game_all" index="6"]
+position = Vector2(-405, 114)
+
+[node name="Area2D" type="Area2D" parent="game_all"]
+position = Vector2(-405, 114)
+collision_mask = 6
+script = ExtResource("4_kjktk")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="game_all/Area2D"]
+position = Vector2(165, -39)
+shape = SubResource("RectangleShape2D_u2xta")
+
+[node name="Timer" type="Timer" parent="game_all/Area2D"]
+wait_time = 4.0
+one_shot = true
+
+[node name="naming_text" parent="game_all/Area2D" instance=ExtResource("4_c7v5w")]
+offset_left = -134.0
+offset_top = -249.0
+offset_right = 367.0
+offset_bottom = -186.0
+text = "Are these the gates to heaven?"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="game_all/Area2D"]
+root_node = NodePath("../../Rock")
+libraries = {
+&"": SubResource("AnimationLibrary_pcq77")
+}
+
+[node name="floor_sprite" parent="." instance=ExtResource("3_l0xmf")]
+position = Vector2(35, -94)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(32, -145)
+texture = ExtResource("6_kjktk")
+
+[connection signal="body_entered" from="game_all/Area2D" to="game_all/Area2D" method="_on_body_entered"]
+[connection signal="timeout" from="game_all/Area2D/Timer" to="game_all/Area2D" method="_on_timer_timeout"]
+
+[editable path="game_all"]
