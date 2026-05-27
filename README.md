@@ -8,7 +8,9 @@ Moreover, you can access the comments left by developpers and results of my GMTK
 Commercial assets used in this project (listed font, sprites and SFX) are not included in this repository.
 
 I currently have Godot at version 4.4.1
-
+<p align="center">
+<img width="1195" height="570" alt="image" src="https://github.com/user-attachments/assets/55f86beb-7e54-4ecc-99fc-88e0996f9c8c" />
+</p>
 External assets:
 
 Font: 
