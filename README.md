@@ -1,6 +1,7 @@
 <p align="center">
-<img width="598" height="285" alt="image" src="https://github.com/user-attachments/assets/55f86beb-7e54-4ecc-99fc-88e0996f9c8c" />
+<img width="400" height="190" alt="image" src="https://github.com/user-attachments/assets/55f86beb-7e54-4ecc-99fc-88e0996f9c8c" />
 </p>
+
 # Sisyphus Video Game
 This game was built for the 2025 edition of the **GMTK Game Jam**, a worldwide game-making competition held every year. Since that year’s theme was “Loop”, I designed a game based on the myth of Sisyphus, in which he repeatedly pushes his boulder uphill. The player completes puzzle-like levels, though the end may never be reached ;)
 
