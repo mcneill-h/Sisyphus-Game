@@ -1,3 +1,6 @@
+<p align="center">
+<img width="598" height="285" alt="image" src="https://github.com/user-attachments/assets/55f86beb-7e54-4ecc-99fc-88e0996f9c8c" />
+</p>
 # Sisyphus Video Game
 This game was built for the 2025 edition of the **GMTK Game Jam**, a worldwide game-making competition held every year. Since that year’s theme was “Loop”, I designed a game based on the myth of Sisyphus, in which he repeatedly pushes his boulder uphill. The player completes puzzle-like levels, though the end may never be reached ;)
 
@@ -8,9 +11,6 @@ Moreover, you can access the comments left by developpers and results of my GMTK
 Commercial assets used in this project (listed font, sprites and SFX) are not included in this repository.
 
 I currently have Godot at version 4.4.1
-<p align="center">
-<img width="1195" height="570" alt="image" src="https://github.com/user-attachments/assets/55f86beb-7e54-4ecc-99fc-88e0996f9c8c" />
-</p>
 <p align="center">
 <img width="736" height="449" alt="image" src="https://github.com/user-attachments/assets/73e6ea7d-846b-4367-94ef-0e3ddf556825" />
 </p>
