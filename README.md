@@ -11,6 +11,9 @@ I currently have Godot at version 4.4.1
 <p align="center">
 <img width="1195" height="570" alt="image" src="https://github.com/user-attachments/assets/55f86beb-7e54-4ecc-99fc-88e0996f9c8c" />
 </p>
+<p align="center">
+<img width="736" height="449" alt="image" src="https://github.com/user-attachments/assets/73e6ea7d-846b-4367-94ef-0e3ddf556825" />
+</p>
 External assets:
 
 Font: 
