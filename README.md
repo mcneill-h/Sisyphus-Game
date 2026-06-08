@@ -1,5 +1,5 @@
 <p align="center">
-<img width="400" height="190" alt="image" src="https://github.com/user-attachments/assets/55f86beb-7e54-4ecc-99fc-88e0996f9c8c" />
+<img width="400" height="191" alt="hjkjh" src="https://github.com/user-attachments/assets/349aec6b-c740-45fd-8dd3-9bed06c6914d" />
 </p>
 
 # Sisyphus Video Game
