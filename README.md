@@ -6,9 +6,13 @@
 
 <p align="center">
 ![Godot](https://img.shields.io/badge/Godot-4.x-478CBF?style=for-the-badge&logo=godotengine&logoColor=white)
+  
   ![GDScript](https://img.shields.io/badge/GDScript-2.0-478CBF?style=for-the-badge&logo=godotengine&logoColor=white)
+  
   ![MIT License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+  
   ![Open Source](https://img.shields.io/badge/Open_Source-Yes-success?style=for-the-badge)
+  
   ![Release](https://img.shields.io/badge/Release-v1.0.0-blue?style=for-the-badge)
 </p>
 
