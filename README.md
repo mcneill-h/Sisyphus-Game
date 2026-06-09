@@ -4,12 +4,9 @@
 <img width="400" height="191" alt="hjkjh" src="https://github.com/user-attachments/assets/349aec6b-c740-45fd-8dd3-9bed06c6914d" />
 </p>
 
-![Discord](https://img.shields.io/badge/Discord-Join_Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)
-
-![Node.js](https://img.shields.io/badge/Node.js-20+-339933?style=for-the-badge&logo=node.js&logoColor=white)
-
-![Playwright](https://img.shields.io/badge/Playwright-Automation-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-
+<p align="center">
+![Godot](https://img.shields.io/badge/Godot-4.x-478CBF?style=for-the-badge&logo=godotengine&logoColor=white)![GDScript](https://img.shields.io/badge/GDScript-2.0-478CBF?style=for-the-badge&logo=godotengine&logoColor=white)![MIT License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)![Open Source](https://img.shields.io/badge/Open_Source-Yes-success?style=for-the-badge)![Release](https://img.shields.io/badge/Release-v1.0.0-blue?style=for-the-badge)
+</p>
 
 This game was built for the 2025 edition of the **GMTK Game Jam**, a worldwide game-making competition held every year. Since that year’s theme was “Loop”, I designed a game based on the myth of Sisyphus, in which he repeatedly pushes his boulder uphill. The player completes puzzle-like levels, though the end may never be reached ;)
 
