@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Godot-4.x-478CBF?style=for-the-badge&logo=godotengine&logoColor=white" alt="Godot"> <img src="https://img.shields.io/badge/GDScript-2.0-478CBF?style=for-the-badge&logo=godotengine&logoColor=white" alt="GDScript"> <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"> <img src="https://img.shields.io/badge/Open_Source-Yes-success?style=for-the-badge" alt="Open Source">
+  <img src="https://img.shields.io/badge/Godot-4.4-478CBF?style=for-the-badge&logo=godotengine&logoColor=white" alt="Godot"> <img src="https://img.shields.io/badge/GDScript-2.0-478CBF?style=for-the-badge&logo=godotengine&logoColor=white" alt="GDScript"> <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"> <img src="https://img.shields.io/badge/Open_Source-Yes-success?style=for-the-badge" alt="Open Source"><img src="[https://img.shields.io/badge/Open_Source-Yes-success?style=for-the-badge](https://img.shields.io/badge/Release-v1.0.0-blue?style=for-the-badge)" alt="Release">
 </p>
 
 This game was built for the 2025 edition of the **GMTK Game Jam**, a worldwide game-making competition held every year. Since that year’s theme was “Loop”, I designed a game based on the myth of Sisyphus, in which he repeatedly pushes his boulder uphill. The player completes puzzle-like levels, though the end may never be reached ;)
