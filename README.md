@@ -1,8 +1,16 @@
+# Sisyphus Video Game
+
 <p align="center">
 <img width="400" height="191" alt="hjkjh" src="https://github.com/user-attachments/assets/349aec6b-c740-45fd-8dd3-9bed06c6914d" />
 </p>
 
-# Sisyphus Video Game
+![Discord](https://img.shields.io/badge/Discord-Join_Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)
+
+![Node.js](https://img.shields.io/badge/Node.js-20+-339933?style=for-the-badge&logo=node.js&logoColor=white)
+
+![Playwright](https://img.shields.io/badge/Playwright-Automation-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+
+
 This game was built for the 2025 edition of the **GMTK Game Jam**, a worldwide game-making competition held every year. Since that year’s theme was “Loop”, I designed a game based on the myth of Sisyphus, in which he repeatedly pushes his boulder uphill. The player completes puzzle-like levels, though the end may never be reached ;)
 
 The game can be played on the browser through: <https://henry-mcneill.itch.io/ascent-from-the-depths> or alternatively, you can research "Ascent from the Depths" on itch.io. The code made in Godot is included on this Github page.
