@@ -11,8 +11,12 @@
 # What is this Sisyphus game?
 This game was built for the 2025 edition of the **GMTK Game Jam**, a worldwide game-making competition held every year. Since that year’s theme was “Loop”, I designed a game based on the myth of Sisyphus, in which he repeatedly pushes his boulder uphill. The player completes puzzle-like levels, though the end may never be reached ;)
 
+I was happy of this first submission to a game jam, as I received positive feedback from other game developers and was ranked in the top 20% in all 5 criteria. Even getting in the top 5% in the “narration” category. Moreover, it felt really rewarding as I was able to create a game in four days.
 
-# How to play the game?
+
+The music, code, and some of the sprites were 100% made by myself. Any developpers are free to use them as they will.
+
+# How to play the game NOW?
 The game can be played on the browser through: <https://henry-mcneill.itch.io/ascent-from-the-depths> or alternatively, you can research "Ascent from the Depths" on itch.io. The code made in Godot is included on this Github page.
 
 Moreover, you can access the comments left by developpers and results of my GMTK game jam participation in the followiung link: <https://itch.io/jam/gmtk-2025/rate/3782004>
@@ -29,6 +33,7 @@ I currently have Godot at version 4.4.1
 
 # External assets
 Here are the different external assets I used in my game:
+
 **Font:** 
 
 https://fonts.google.com/specimen/Cinzel?query=cinzel
@@ -51,3 +56,5 @@ https://www.epidemicsound.com/sound-effects/tracks/503c2efa-c8e3-437b-b84d-20234
 Licensed under the MIT License - See the LICENSE document
 
 External assets used in this project (listed font, sprites and SFX) are not included in this repository. They may or may not be used in modified versions of this repository (for more information, see the links from each external assets above).
+
+The music, code, and some of the sprites were 100% made by myself. Any developpers are free to use them as they will.
