@@ -11,6 +11,8 @@
 # What is this Sisyphus game?
 This game was built for the 2025 edition of the **GMTK Game Jam**, a worldwide game-making competition held every year. Since that year’s theme was “Loop”, I designed a game based on the myth of Sisyphus, in which he repeatedly pushes his boulder uphill. The player completes puzzle-like levels, though the end may never be reached ;)
 
+The game includes, lava, gesysers, and many other challenging features.
+
 I was happy of this first submission to a game jam, as I received positive feedback from other game developers and was ranked in the top 20% in all 5 criteria. Even getting in the top 5% in the “narration” category. Moreover, it felt really rewarding as I was able to create a game in four days.
 
 
