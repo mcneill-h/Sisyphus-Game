@@ -35,7 +35,7 @@ I currently have Godot at version 4.4.1
 
 # External assets
 
-No AI has been used to generate the code, nor to generate assets.
+No AI has been used to generate the code, nor to generate assets. The code was entirely self-made.
 Here are the different external assets I used in my game:
 
 **Font:** 
