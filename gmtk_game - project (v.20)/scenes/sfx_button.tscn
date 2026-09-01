@@ -1,7 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://cyj771mg7jcqe"]
-
-[ext_resource type="AudioStream" uid="uid://bid76vfrnlo5q" path="res://assets/button_sfx_2.mp3" id="1_ogya3"]
-
-[node name="sfx_button" type="AudioStreamPlayer2D"]
-stream = ExtResource("1_ogya3")
-bus = &"SFX"

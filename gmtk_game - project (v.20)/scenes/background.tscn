@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://cq4suoeq8iviv"]
-
-[ext_resource type="Texture2D" uid="uid://cnwv7my333cyl" path="res://assets/Drawing-1.sketchpad (2).png" id="1_bkp1e"]
-
-[node name="background" type="Node2D"]
-
-[node name="Sprite2D" type="Sprite2D" parent="."]
-scale = Vector2(0.606771, 0.603472)
-texture = ExtResource("1_bkp1e")
