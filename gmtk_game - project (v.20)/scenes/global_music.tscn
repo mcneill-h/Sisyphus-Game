@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://tdutyx1s630q"]
+
+[ext_resource type="AudioStream" uid="uid://dy3f3ka3p53u1" path="res://assets/beep_musiiic.mp3" id="1_p76w3"]
+
+[node name="GlobalMusic" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_p76w3")
+autoplay = true
+bus = &"Music"
+parameters/looping = true

@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://sjkk141tmyev"]
+
+[ext_resource type="PackedScene" uid="uid://bfi1bbkq77t2p" path="res://scenes/game_all.tscn" id="1_d6fun"]
+[ext_resource type="PackedScene" uid="uid://cq4suoeq8iviv" path="res://scenes/background.tscn" id="1_if4l3"]
+[ext_resource type="PackedScene" uid="uid://dlgickvjqghum" path="res://scenes/floor_sprite.tscn" id="3_4038r"]
+
+[node name="level2" type="Node2D"]
+
+[node name="background" parent="." instance=ExtResource("1_if4l3")]
+
+[node name="game_all" parent="." instance=ExtResource("1_d6fun")]
+
+[node name="player" parent="game_all" index="2"]
+position = Vector2(-536, 3)
+
+[node name="win_zone" parent="game_all" index="3"]
+position = Vector2(455, 47)
+
+[node name="platforms_collisions" parent="game_all/StaticBody2D" index="0"]
+position = Vector2(45, 85)
+polygon = PackedVector2Array(-1031.12, -103.271, -725.962, -108.803, -350.132, 424.148, -36.9406, 328.253, 488.258, -1.84412, 812.692, -5.53236, 1008.64, -169.659, 881, 584, -1092.16, 564.301)
+
+[node name="platforms_textures" parent="game_all/StaticBody2D" index="1"]
+position = Vector2(45, 85)
+
+[node name="Rock" parent="game_all" index="6"]
+position = Vector2(-457, -28)
+
+[node name="floor_sprite" parent="." instance=ExtResource("3_4038r")]
+position = Vector2(452, 100)
+
+[editable path="game_all"]
